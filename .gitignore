@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Java / IntelliJ
+.idea/
+*.iml
+target/
+out/
+
+# Node / Angular
+**/node_modules/
+**/dist/
+.angular/
+.vscode/
