@@ -1,6 +1,6 @@
 package com.helpdesk.demo.model;
 
-import jakarta.persitance.*;
+import jakarta.persistence.*;
 import lombok.Data;
 import java.time.LocalDateTime;
 
@@ -25,7 +25,7 @@ public class Ticket {
 
     @PrePersist
     protected void onCreate(){
-        fechaCreation = LocalDateTime.now();
-        if ( estado ==null) estado = "OPEN"
+        fechaCreacion = LocalDateTime.now();
+        if ( estado ==null) estado = "OPEN";
     }
 }
